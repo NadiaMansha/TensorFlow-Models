@@ -71,11 +71,15 @@ const TagClassificationDemo = () => {
   };
 
   const renderInput = () => (
-    <input
+    <>    <input
+    className="input-file"
+
       type="file"
       onChange={handleUploadChange}
       accept="image/x-png,image/gif,image/jpeg"
     />
+   
+    </>
   );
 
   const renderPreview = () => (

@@ -156,6 +156,18 @@ function DetectionFromImage() {
       style={{display:"none"}}
       />
       <button 
+      style={{
+        padding: "10px 20px",
+    backgroundColor: "#1ac71a",
+    color: "#fff",
+    border: "none",
+    borderRadius: "4px",
+    marginTop: "10px",
+    cursor: "pointer",
+    outline: "none",
+    fontSize: "18px"
+        
+      }}
       onClick={
         imagePicker
       }

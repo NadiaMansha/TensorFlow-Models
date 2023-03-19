@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import MyComponent from './MyComponent'
+import MyComponent from './components/MyComponent'
 import './App.css'
-import ImageClassifier from './ImageClassifier'
-import { BrowserRouter ,Route,Routes,Link} from 'react-router-dom'
-import Home from './Home'
-import DetectionFromVideo from './DetectionFromVideo'
-import DetectionFromImage from './DetectionFromImage'
-import RealTimeObject from './RealTimeObject'
+import ImageClassifier from './components/ImageClassifier'
+import { BrowserRouter ,Route,Routes} from 'react-router-dom'
+import Home from './components/Home'
+import DetectionFromVideo from './components/DetectionFromVideo'
+import DetectionFromImage from './components/DetectionFromImage'
+import RealTimeObject from './components/RealTimeObject'
 
 function App() {
  
